@@ -2,7 +2,7 @@
 %define Werror_cflags %nil
 
 %define version	0.15
-%define rel	1
+%define rel	2
 
 Summary:	Driver and diagnostic utility for Usermode SoundModem
 Name:		soundmodem
@@ -16,6 +16,7 @@ BuildRequires:	libalsa-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	gtk2-devel
 BuildRequires:	audiofile-devel
+Buildrequires:	hamlib-devel
 Requires(post):		rpm-helper
 Requires(preun):	rpm-helper
 
