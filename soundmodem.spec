@@ -16,7 +16,7 @@ BuildRequires:	libalsa-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	gtk2-devel
 BuildRequires:	audiofile-devel
-Buildrequires:	hamlib-devel
+BuildRequires:	hamlib-devel
 Requires(post):		rpm-helper
 Requires(preun):	rpm-helper
 
