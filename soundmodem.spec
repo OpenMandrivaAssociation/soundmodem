@@ -1,8 +1,8 @@
 # FIXME: temporarily disable to get package to build (wally 10/2010)
 %define Werror_cflags %nil
 
-%define version	0.15
-%define rel	2
+%define version	0.16
+%define rel	1
 
 Summary:	Driver and diagnostic utility for Usermode SoundModem
 Name:		soundmodem
