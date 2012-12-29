@@ -1,13 +1,10 @@
 # FIXME: temporarily disable to get package to build (wally 10/2010)
 %define Werror_cflags %nil
 
-%define version	0.17
-%define rel	1
-
 Summary:	Driver and diagnostic utility for Usermode SoundModem
 Name:		soundmodem
-Version:	%{version}
-Release:	%mkrel %{rel}
+Version:	0.18
+Release:	1
 License:	GPLv2+
 Group:		Communications
 Url:		http://www.baycom.org/~tom/ham/soundmodem/
@@ -78,3 +75,4 @@ mv %{buildroot}%{_includedir}/*.h %{buildroot}%{_includedir}/%{name}
 
 %files devel
 %{_includedir}/%{name}
+

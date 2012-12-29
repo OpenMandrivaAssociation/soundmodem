@@ -1,2 +1,4 @@
+removed_sources:
+  soundmodem-0.16.tar.gz: 7165f9c1343f3419d491e03384c5ca3f7bab8f11
 sources:
-  "soundmodem-0.16.tar.gz": 7165f9c1343f3419d491e03384c5ca3f7bab8f11
+  soundmodem-0.18.tar.gz: 168721f6d85aabe0c4e9e2e23fe3a07e9a27a5b4
