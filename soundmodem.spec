@@ -4,7 +4,7 @@
 Summary:	Driver and diagnostic utility for Usermode SoundModem
 Name:		soundmodem
 Version:	0.18
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Communications
 Url:		http://www.baycom.org/~tom/ham/soundmodem/
