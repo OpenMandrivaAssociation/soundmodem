@@ -7,7 +7,7 @@ Version:	0.18
 Release:	2
 License:	GPLv2+
 Group:		Communications
-Url:		http://www.baycom.org/~tom/ham/soundmodem/
+Url:		https://www.baycom.org/~tom/ham/soundmodem/
 Source0:	http://www.baycom.org/~tom/ham/soundmodem/%{name}-%{version}.tar.gz
 BuildRequires:	alsa-oss-devel
 BuildRequires:	pkgconfig(libxml-2.0)
