@@ -9,6 +9,11 @@ License:	GPLv2+
 Group:		Communications
 Url:		https://www.baycom.org/~tom/ham/soundmodem/
 Source0:	http://www.baycom.org/~tom/ham/soundmodem/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	alsa-oss-devel
 BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	gtk2-devel
